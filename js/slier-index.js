@@ -40,3 +40,19 @@ prev.onclick = function() {
 		titleSlides.innerHTML = prevSlide.querySelector("ul").innerHTML;
 
 }
+
+// jquery slider
+// slider = $(".circle-slides");
+
+// $("#slidesPrev").on("click", function() {
+// 	let elem = $(".circle-slides li.active").prev();
+// 	$(".circle-slides li.active").removeClass("active");
+
+// 	if(!elem.length) {
+// 		elem = $(".circle-slides li:last-child");
+// 	}
+
+// 	elem.addClass('active');
+// 	$(".testimonials-description").attr( "li", elem.find( "ul" ).attr( "li" ) );
+// });
+// console.dir(slider);
